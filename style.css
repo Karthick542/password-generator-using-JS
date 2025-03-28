@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: min(450px, 90%);
+    background: #466088;
+    border-radius: 8px;
+    box-shadow: rgba(30, 30, 31, 0.25) 0px 50px 100px 20px, 
+                rgba(0, 0, 0, 0.5) 0px 30px 60px 30px;
+    padding: 20px;
+    color: white;
+}
+
+.container p {
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 1.25rem 1.75rem;
+}
+
+.input-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background: #858bb2;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+.input-box span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: black;
+    font-size: 14px;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.input-box span:hover {
+    background: lightgray;
+}
+
+.pass-settings {
+    margin: 1.56rem 0 1.25rem;
+}
+
+.pass-settings .options {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.options .option {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.options .option input {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.options .option label {
+    cursor: pointer;
+    color: white;
+}
+
+.generate-btn {
+    width: 100%;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #46496e;
+    font-size: 1.06rem;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.generate-btn:hover {
+    background: #3a3d5c;
+}
